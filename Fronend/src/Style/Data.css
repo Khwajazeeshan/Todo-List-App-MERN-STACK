@@ -1,0 +1,65 @@
+.data {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.para {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.Todos {
+    width: 55%;
+    
+}
+.section{
+    margin-bottom: 8px;
+    background-color: rgb(249, 249, 249);
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    color: black;
+    padding: 8px;
+    /* margin-bottom: 6px; */
+    /* margin-bottom: 7px; */
+}
+
+.todo-data {
+    gap: 12px;
+    display: flex;
+    gap: 12px;
+    padding: 4px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    /* background-color: black; */
+    border: 2px solid black;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.line_through{
+    text-decoration: line-through;
+}
+.svg {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    /* background-color: black; */
+}
+
+@media screen and (max-width: 600px) {
+    .Todos {
+        width: 100%;
+        padding: 0px 12px;
+    }
+}
